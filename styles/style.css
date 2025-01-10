@@ -75,3 +75,29 @@ order: 0;
 flex-grow: 0;
 margin:80px  auto;
 }
+.section-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: 0 auto;
+padding: 80px 700px   32px  ;
+margin: 32px 0px;
+gap: 32;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+}
+.skills-container{
+    display: flex;
+    gap:24px;
+}
+.skill{
+    padding: 24px;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06)  ;
+    border-radius: 16px;
+   padding:200px;
+   
+}
