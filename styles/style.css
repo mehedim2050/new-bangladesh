@@ -21,22 +21,37 @@
     line-height: 67px;
     letter-spacing: 0%;
     text-align: left;
+position: static;
+width: 622px;
+height: 201px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 20;
+padding: 0px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
 }
 .banner-btn{
     color: rgb(255, 255, 255);
 font-size: 18px;
 font-weight: 600;
-line-height: 22px;
+line-height: 50px;
 letter-spacing: 0%;
 text-align: left;
 border-radius: 8px;
 background: rgb(0, 106, 80);
 margin: 24px 0px;
 position: static;
-width: 270px;
+width: 250px;
 height: 56px;
 justify-content: center;
 align-items: center;
+
+
 }
 .banner{
     display: flex;
@@ -58,6 +73,5 @@ padding: 80px 100px 80px 100px;
 flex: none;
 order: 0;
 flex-grow: 0;
-margin: 80px 0px;
-background-position: top left, bottom right;
+margin:80px  auto;
 }
